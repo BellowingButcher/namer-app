@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('An AWESOME computerized RANDOM idea:'),
+            Text('An AWESOME computerized RANDOM word pair:'),
             BigCard(pair: pair),
             ElevatedButton(
               onPressed: () {
